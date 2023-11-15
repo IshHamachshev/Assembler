@@ -1,9 +1,9 @@
 This is an assembler made as a part of a course I took @ [The Open University of Israel](https://www.openu.ac.il/).
 
-To compile, you can simply run `make`. This will generate an executable, `Assembly`, and to check it, just run
+To compile, you can simply run `make`. This will generate an executable, `Assembler`, and to check it, just run
 
 ```bash
-./Assembly <filepath>
+./Assembler <filepath>
 ```
 
 For your comfort, in the /Tests folder I have included examples of both valid and invalid files to check my Assembler. 
