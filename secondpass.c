@@ -49,7 +49,7 @@ FILE* fopenWithExtension(char* file_name, char* file_name_extension, const char*
         exit(1);
     }
 
-    new_file_name = malloc((strlen(file_name) + sizeof(file_name_extension)) * sizeof(char));
+    new_file_name = malloc((strlen(file_name) + strlen(file_name_extension) + 1) * sizeof(char));
     if(new_file_name == NULL){
         PRINT_ERR_MEMORY_ALLOCATION_FAILED
         exit(1);
